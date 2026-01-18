@@ -1,4 +1,4 @@
-import { integer, pgEnum, pgTable, text } from "drizzle-orm/pg-core";
+import { integer, pgEnum, pgTable, serial, text } from "drizzle-orm/pg-core";
 import { timestamps } from "./columns.helpers";
 
 const knowledgeType = pgEnum("knowledge_type", ["mathematics", "informatics", "computer_science", "other"]);
